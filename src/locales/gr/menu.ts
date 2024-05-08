@@ -1,0 +1,46 @@
+import { SimpleTranslationEntries } from "#app/plugins/i18n";
+
+/**
+ * The menu namespace holds most miscellaneous text that isn't directly part of the game's
+ * contents or directly related to Pokemon data. This includes menu navigation, settings,
+ * account interactions, descriptive text, etc.
+ */
+export const menu: SimpleTranslationEntries = {
+    "cancel": "Άκυρο",
+    "continue": "Συνέχεια",
+    "dailyRun": "Ημερήσια Πρόκληση (Beta)",
+    "loadGame": "Φόρτωση Παιχνιδιού",
+    "newGame": "Νέο Παιχνίδι",
+    "selectGameMode": "Διάλεξε τρόπο παιχνιδιού.",
+    "logInOrCreateAccount": "Συνδέσου ή δημιούργησε έναν λογαριασμό για να ξεκινήσεις. Δεν απαιτείται email!",
+    "username": "Όνομα Χρήστη",
+    "password": "Κωδικός Πρόσβασης",
+    "login": "Σύνδεση",
+    "register": "Εγγραφή",
+    "emptyUsername": "Το όνομα χρήστη δεν μπορεί να είναι κενό",
+    "invalidLoginUsername": "Το όνομα χρήστη που δώσατε δεν είναι έγκυρο",
+    "invalidRegisterUsername": "Το όνομα χρήστη πρέπει να περιέχει μόνο γράμματα, αριθμούς ή κάτω παύλες",
+    "invalidLoginPassword": "Ο κωδικός πρόσβασης που δώσατε δεν είναι έγκυρος",
+    "invalidRegisterPassword": "Ο κωδικός πρέπει να περιέχει 6 ή περισσότερους χαρακτήρες",
+    "usernameAlreadyUsed": "Το όνομα χρήστη που δώσατε χρησιμοποιείται ήδη",
+    "accountNonExistent": "Το όνομα χρήστη που δώσατε δεν υπάρχει",
+    "unmatchingPassword": "Ο κωδικός πρόσβασης που δώσατε δεν ταιριάζει",
+    "passwordNotMatchingConfirmPassword": "Το πεδίο 'Κωδικός Πρόσβασης' πρέπει να ταιριάζει με το 'Επιβεβαίωση Κωδικού'",
+    "confirmPassword": "Επιβεβαίωση Κωδικού",
+    "registrationAgeWarning": "Με την εγγραφή σας, επιβεβαιώνετε ότι είστε 13 ετών ή περισσότερο.",
+    "backToLogin": "Πίσω στην Σύνδεση",
+    "failedToLoadSaveData": "Αποτυχία φόρτωσης δεδομένων αποθήκευσης.\nΠαρακαλώ επαναφορτώστε τη σελίδα.\nΑν το πρόβλημα συνεχίζεται, επικοινωνήστε με τον διαχειριστή.",
+    "sessionSuccess": "Η Συνεδρία φόρτωσε επιτυχώς.",
+    "failedToLoadSession": "Τα δεδομένα της συνεδρίας σας δεν μπορούν να φορτωθούν.\nΜπορεί να είναι κατεστραμμένα.",
+    "boyOrGirl": "Είσαι αγόρι ή κορίτσι;",
+    "boy": "Αγόρι",
+    "girl": "Κορίτσι",
+    "dailyRankings": "Ημερήσια Κατάταξη",
+    "weeklyRankings": "Εβδομαδιαία Κατάταξη",
+    "noRankings": "Καμία Κατάταξη",
+    "loading": "Φώρτωση…",
+    "playersOnline": "Παίχτες Online",
+    "empty":"Άδειο",
+    "yes":"Ναί",
+    "no":"Όχι",
+} as const;
