@@ -1,42 +1,49 @@
 import { SimpleTranslationEntries } from "#app/plugins/i18n";
 
 export const tutorial: SimpleTranslationEntries = {
-    "intro": `Welcome to PokéRogue! This is a battle-focused Pokémon fangame with roguelite elements.
-    $This game is not monetized and we claim no ownership of Pokémon nor of the copyrighted assets used.
-    $The game is a work in progress, but fully playable.\nFor bug reports, please use the Discord community.
-    $If the game runs slowly, please ensure 'Hardware Acceleration' is turned on in your browser settings.`,
+    "intro": `Καλωσήρθες στο PokéRogue!\nΕίναι ένα παιχνίδι μάχης Pokémon, με στοιχεία roguelite, φτιαγμένο από φίλους της σειράς. 
+    $Αυτό το παιχνίδι δεν δημιουργεί έσοδα και δεν διεκδικούμε την ιδιοκτησία της ετικέτας Pokémon\nούτε των προστατευόμενων απο πνευματικά δικαιώματα περιουσιακών στοιχείων που χρησιμοποιούνται.
+    $Το παιχνίδι είναι ακόμα υπό ανάπτυξη, αλλά μπορεί να παιχθεί πλήρως.\nΓια αναφορά προβλημάτων, παρακαλούμε χρησιμοποιήστε την κοινότητα στο Discord.
+    $Αν το παιχνίδι τρέχει αργά, βεβαιωθείτε ότι η 'Επιτάχυνση Υλικού' είναι ενεργοποιημένη στις ρυθμίσεις του προγράμματος περιήγησής σας.`,
     
-    "accessMenu": `To access the menu, press M or Escape while awaiting input.\nThe menu contains settings and various features.`,
+    "accessMenu": `Για πρόσβαση στο μενού, πατήστε M ή Escape.\nΤο μενού περιέχει τις ρυθμίσεις και άλλες διάφορες λειτουργίες.`,
     
-    "menu": `From this menu you can access the settings.
-    $From the settings you can change game speed, window style, and other options.
-    $There are also various other features here, so be sure to check them all!`,
+    "menu": `Από αυτό το μενού έχετε πρόσβαση στις ρυθμίσεις.
+    $Από τις ρυθμίσεις μπορείτε να αλλάξετε την ταχύτητα παιχνιδιού, το στυλ παραθύρου και άλλες επιλογές.
+    $Υπάρχουν επίσης διάφορα άλλα χαρακτηριστικά εδώ, οπότε φροντίστε να τα ελέγξετε όλα!`,
 
-    "starterSelect": `From this screen, you can select your starters.\nThese are your initial party members.
-    $Each starter has a value. Your party can have up to\n6 members as long as the total does not exceed 10.
-    $You can also select gender, ability, and form depending on\nthe variants you've caught or hatched.
-    $The IVs for a species are also the best of every one you've\ncaught or hatched, so try to get lots of the same species!`,
+    "starterSelect": `Από αυτή την οθόνη, μπορείς να επιλέξεις τα αρχικά σου.\nΑυτά θα είναι τα πρώτα μέλη της ομάδας σου.
+    $Κάθε αρχικό έχει μια τιμή.\nΗ ομάδα σου μπορεί να έχει μέχρι και 6 μέλη,
+    $φτάνει το άθροισμα των τιμών να μη ξεπερνάει το 10!
+    $Μπορείς επίσης να επιλέξεις φύλο, ικανότητα, και μορφή βάση\nτων παραλλαγών που έχεις πιάσει ή εκκολάψει.
+    $Επίσης, οι τιμές των IVs του κάθε είδους είναι οι καλύτερες\nγια κάθε ένα από αυτά που έχεις πιάσει ή εκκολάψει,
+    $οπότε προσπαθήσε να αποκτήσεις πολλά από κάθε είδος!`,
 
-    "pokerus": `A daily random 3 selectable starters have a purple border.
-    $If you see a starter you own with one of these,\ntry adding it to your party. Be sure to check its summary!`,
+    "pokerus": `Καθημερινά, τυχαία 3 επιλέξιμα αρχικά έχουν μωβ περίγραμμα.
+    $Αν δεις ενα αρχικό που σου ανήκει να έχει μωβ περίγραμμα,\nδοκίμασε να το βάλεις στην ομάδα σου. Φρόντισε να ελέγξεις τη σύνοψή του!`,
 
-    "statChange": `Stat changes persist across battles as long as your Pokémon aren't recalled.
-    $Your Pokémon are recalled before a trainer battle and before entering a new biome.
-    $You can also view the stat changes for the Pokémon on the field by holding C or Shift.`,
+    "statChange": `Οι αλλαγές στα στατιστικά παραμένουν σε όλες τις μάχες\nόσο δεν γίνεται ανάκληση των Pokémon σου.
+    $Τα Pokémon σου ανακαλούνται πριν από μάχες με εκπαιδευτές και πριν εισέλθεις σε ένα νέο οικοσύστημα.
+    $Μπορείς επίσης να δείς τις αλλαγές στατιστικών για τα Pokémon σου την ώρα της μάχης κρατώντας πατημένο το C ή το Shift.`,
 
-    "selectItem": `After every battle, you are given a choice of 3 random items.\nYou may only pick one.
-    $These range from consumables, to Pokémon held items, to passive permanent items.
-    $Most non-consumable item effects will stack in various ways.
-    $Some items will only show up if they can be used, such as evolution items.
-    $You can also transfer held items between Pokémon using the transfer option.
-    $The transfer option will appear in the bottom right once you have obtained a held item.
-    $You may purchase consumable items with money, and a larger variety will be available the further you get.
-    $Be sure to buy these before you pick your random item, as it will progress to the next battle once you do.`,
+    "selectItem": `Μετά από κάθε μάχη, σου δίνεται η επιλογή 3 τυχαίων αντικειμένων. Μπορείς να επιλέξεις μόνο ένα.
+    $Αυτά κυμαίνονται από αναλώσιμα, μέχρι αντικείμενα Pokémon, έως μόνιμα αντικείμενα με παθητικές ικανότητες.
+    $Οι περισσότερες επιδράσεις των μη αναλώσιμων αντικειμένων\nστοιβάζονται.
+    $Ορισμένα αντικείμενα, όπως τα αντικείμενα εξέλιξης,\nθα εμφανίζονται μόνο εάν μπορούν να χρησιμοποιηθούν.
+    $Μπορείς επίσης να μεταφέρεις αντικείμενα μεταξύ Pokémon\nχρησιμοποιώντας την επιλογή μεταφοράς.
+    $Η επιλογή μεταφοράς θα εμφανιστεί κάτω δεξιά μόλις\nαποκτήσετε ένα αντικείμενο που μπορεί να κρατηθεί.
+    $Μπορείς να αγοράσεις αναλώσιμα είδη με χρήματα, 
+    $και μεγαλύτερη ποικιλία θα είναι διαθέσιμη όσο περισσότερο προχωράς στο παιχνίδι.
+    $Φρόντισε να τα αγοράσεις πριν επιλέξεις το τυχαίο αντικείμενο σου,
+    $καθώς το παιχνίδι θα προχωρήσει στην επόμενη μάχη μόλις το κάνεις.`,
 
-    "eggGacha": `From this screen, you can redeem your vouchers for\nPokémon eggs.
-    $Eggs have to be hatched and get closer to hatching after\nevery battle. Rarer eggs take longer to hatch.
-    $Hatched Pokémon also won't be added to your party, they will\nbe added to your starters.
-    $Pokémon hatched from eggs generally have better IVs than\nwild Pokémon.
-    $Some Pokémon can only even be obtained from eggs.
-    $There are 3 different machines to pull from with different\nbonuses, so pick the one that suits you best!`,
+    "eggGacha": `Από αυτή την οθόνη, μπορείς να ανταλλάξεις\nτα κουπόνια σου για αυγά Pokémon.
+    $Τα αυγά πρέπει να εκκολαφθούν και πλησιάζουν στην\nεκκόλαψη μετά από κάθε μάχη. 
+    $Όσο πιο σπάνιο το αυγό, τόσο περισσότερο χρόνο χρειάζεται\nγια να εκκολαφθεί.
+    $Τα Pokémon που εκκολαφθούν από αυγά δεν προστίθενται\nστην ομάδα σου,
+    $αλλά στα πιθανά αρχικά σου σε επόμενους γύρους.
+    $Τα Pokémon που εκκολαφθούν από αυγά έχουν συνήθως\nκαλύτερα IVs από τα άγρια Pokémon.
+    $Κάποια Pokémon μπορεί να αποκτηθούν μόνο από αυγά.
+    $Υπάρχουν 3 διαφορετικοί κουλοχέρηδες με διαφορετικά\nμπόνους,
+    $οπότε επέλεξε αυτόν που σου ταιριάζει περισσότερο!`,
 } as const;

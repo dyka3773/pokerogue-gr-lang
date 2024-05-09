@@ -4,7 +4,7 @@ export const menuUiHandler: SimpleTranslationEntries = {
     "GAME_SETTINGS": 'Ρυθμίσεις Παιχνιδιού',
     "ACHIEVEMENTS": "Επιτεύγματα",
     "STATS": "Στατιστικά",
-    "VOUCHERS": "Δελτία",
+    "VOUCHERS": "Κουπόνια",
     "EGG_LIST": "Λίστα Αυγών",
     "EGG_GACHA": "Gacha Αυγών",
     "MANAGE_DATA": "Διαχείριση Δεδομένων",
